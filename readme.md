@@ -7,7 +7,7 @@ Any bugs or issues, feel free to fork and do a pull request.
 Contact:
 
 	Leonard Teo
-	leonard@ballistiq.com
+	leonard [at] ballistiq.com
 
 # Usage
 
