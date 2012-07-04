@@ -1,6 +1,6 @@
 # Countdown JS
 
-This is a simple countdown script. I get too many clients asking for the same thing. I don't like the other scripts I saw online as they use a lot of inline Javascript and HTML. I wanted a script that is truly unobtrusive, and that you can re-use easily with any application. This is it. Enjoy!
+This is a simple, unobtrusive countdown Javascript. I get too many clients asking for the same thing. I researched and really don't like the other scripts I see online as they use a lot of inline Javascript and HTML. I wanted a script that is truly unobtrusive, and that you can re-use easily with any application. So I coded this.
 
 Any bugs or issues, feel free to fork and do a pull request.
 
@@ -21,7 +21,7 @@ Invoke the countdown like this:
 	//The current date is the date of your server so that you don't run into timezone issues
 	//Use your server side programming (PHP/Ruby/Python/ASP, etc) to output a date that you can read in using Javascript
 	var target_date = new Date(2012, 12, 25, 0, 0, 0);
-    var current_date = new Date(2012, 07, 04, 0, 0, 0);
+    var current_date = new Date(2012, 12, 23, 0, 0, 0);
 
 	//Create the countdown object
 	var count = new Countdown(target_date, current_date);
@@ -40,7 +40,7 @@ Invoke the countdown like this:
 	});
 	
 
-# License
+# License - MIT License
 
     Copyright (C) 2012 Ballistiq Digital Inc.
     
